@@ -124,18 +124,7 @@ player.addEventListener("click",(e)=>{
                 player1_score++;
             }
         }  
-        score.innerText=`Player1 --- ${player1_score} :  ${player2_score} --- Player2`;
-        player1_move= "";
-        player2_move="";
-        if (player1_score===winner_score) {
-          Result.innerText="FINAL WINNER: Player1 \n press new game button to start again";
-          Result.classList="text-center mt-5 pt-3 text-success"  ;
-          gameStarted=false
-        } else if( player2_score===winner_score){
-          Result.innerText="FINAL WINNER: Player2 \n press new game button to start again";
-          Result.classList="text-center mt-5 pt-3 text-success"  ;
-          gameStarted=false;
-              }
+////////
     } 
       }    
 })
